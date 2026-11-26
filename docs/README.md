@@ -132,16 +132,23 @@ Act 3 起，可以在 **Darwen's House** 升级武器的 Precision 和 Power。A
 
 ## Clothes（服装）
 
-在各地 **Clothing Shop** 购买，三位角色（Vinnie / Kiro / Shorty）各有一套。Wiki 这部分不完整，已知的有：
+在各地 **Clothing Shop** 购买。编号全系列通用，同一编号三位角色（Vinnie / Kiro / Shorty）各有自己的造型，换角色时衣服编号不变。Act 3 起买过的衣服会存进 Safehouse 的衣柜，可以随时换回。下表按游戏代码整理：
 
 | 编号 | 地点 | 价格 |
 |---|---|---|
-| Original | 初始 | $0 |
-| Style 2–7 | Clothing Shop（Chicago，Act 1） | 各 $500 |
-| Bonus | Clothing Shop（Chicago，Act 1） | $0 |
-| Style 8–10 | Clothing Shop（Tokyo，Act 2） | 各 $500 |
-| Style 11 | Clothing Shop（Tokyo，Act 2） | $10,000 |
-| Style 19–21 | Clothing Shop（St. Petersburg，Act 4） | 各 $500 |
+| Original（1） | 初始 | $0 |
+| Style 2–7 | Chicago Clothing Shop（Act 1–5） | 各 $500 |
+| BONUS STYLE（8） | Chicago Clothing Shop，**通关 Act 1 后**出现 | $0 |
+| Style 9–11 | Tokyo Clothing Shop（Act 2） | 各 $500 |
+| Style 12 | Tokyo Clothing Shop（Act 2） | $1000 |
+| PANDA SUIT（13） | Tokyo Clothing Shop，**仅 Kiro**，通关 Act 2 后出现 | $0 |
+| BONUS（13） | Palermo Clothing Shop，**仅 Vinnie**，通关 Act 3 后出现 | $0 |
+| Style 16–18 | Palermo Clothing Shop（Act 3） | 各 $500 |
+| Style 19–21 | St. Petersburg Clothing Shop（Act 4） | 各 $500 |
+| Style 10–25 | Amazon Village 的商店（Act 5），Style 22 仅 Vinnie | 多为 $500 |
+| Style 2–28 | Act 6 各城市的 Clothing Shop 分别出售一部分 | 各 $500 |
+
+和服装有关的支线只有两个：Act 1 的 Well Dressed（要穿 BONUS STYLE）和 Act 2 的 Dress 4 Success（要穿 Tokyo 的 Style 9–12），见各部攻略。
 
 另外还有 `halloween` 等作弊码服装，见上面的作弊码表和 [Act2.md](Act2.md#cheats)。
 

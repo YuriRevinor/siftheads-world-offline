@@ -69,7 +69,7 @@ Mission 2、3、4 的顺序可以自选。
 | **Hidden Memories** | **通关 Act 1 一次**解锁 Basement，下次游戏进入 Basement 自动完成。用 `treasure` 也能提前打开 |
 | **Sift Like A Pro** | Rooftop training（Kiro 哑铃旁边）打出 Accuracy 100% |
 | **A Good Deed** | Clothing Shop 旁的 Slum Buildings，进楼后右边房间，用望远镜找到树上的猫（右边，长椅旁） |
-| **Well Dressed** | 在 Clothing Shop 买一套新衣服 |
+| **Well Dressed** | 穿上 Clothing Shop 的 **BONUS STYLE**（免费）。普通的 Style 2–7 不算。BONUS STYLE **通关 Act 1 后**才出现（或用 `treasure` 作弊码提前解锁） |
 | **Valet Business** | Hotel 门童说 "Your ride has been stolen" 之后，杀掉门童 |
 
 ---

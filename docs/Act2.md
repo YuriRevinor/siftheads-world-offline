@@ -37,7 +37,7 @@
 | **Little Pests** | Daiki Tower 和老人对话，走到吧台下面的楼梯处往右，右边有一根拐杖 |
 | **Breaking My Back** | Emi Massage 从垃圾桶旁的门进，往前，进左边第一个房间（有女孩），点她开始。出来进左边第二个房间，杀掉里面的人 |
 | **Fully Armed** | 在任意 Gun Shop 买 **Spas-12、Desert Eagle、Barrett**，回 Safehouse 的 Armory 把三把同时装备 |
-| **Dress 4 Success** | 在任意 Clothing Shop（Chicago 或 Tokyo）换 4 次衣服 |
+| **Dress 4 Success** | 在 **Tokyo** 的 Clothing Shop 把 **Style 9、10、11、12** 各穿一次（$500、$500、$500、$1000）。Chicago 店的衣服不算。进度不存档，4 套要在同一次游戏里穿完，中途关游戏要重来 |
 | **Quick Response** | 5 分钟内处理完所有线人：Kiro's Place、Daiki Tower、Emi Massage、Chicago 的 Hotel（即主线 2–5） |
 | **Looking At You** | Tokyo 的 **Gun Shop**，点拿望远镜的人，找出所有摄像头 |
 | **Hidden Stash** | Tokyo 的 Gun Shop，打左边的通风口，点保险箱里的钱 |
