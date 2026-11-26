@@ -1,6 +1,7 @@
 # Act 4 - Cold Memories
 
 地点：开场在 **Santa Cruz, California**，之后 Chicago 的 **Airport**，主体在 **St. Petersburg, Russia**（Nico's Place、Bar、Cottages、Old School、Slum Buildings ×2、Gun Shop、Clothing Shop），最后是贩卖团伙的 Fortress。
+**【离线版】** 原版从 Act 3 读档后，地图上 St. Petersburg 显示锁定，要点 Palermo 才能去 St. Petersburg。离线版已改为 St. Petersburg 解锁、Palermo 锁定。
 可用作弊码：`revive` `perso` `reload` `equip`。
 
 ## 全收集清单

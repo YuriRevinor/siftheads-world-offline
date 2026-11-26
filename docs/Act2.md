@@ -1,6 +1,7 @@
 # Act 2 - The Treacherous Return
 
 地点：**Tokyo**（Kiro's Place、Daiki Tower、Emi Massage、Business Tower、Gun Shop、Clothing Shop），**Chicago**（Hotel、Safehouse 等）。
+**【离线版】** 原版从 Act 1 读档后，地图上的 Palermo 会显示已解锁，点了却去 Tokyo。离线版已把 Act 2 地图上的 Palermo、Shanghai、St. Petersburg 固定为锁定。
 
 ## 全收集清单
 - [ ] Main Missions ×10

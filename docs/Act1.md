@@ -16,16 +16,16 @@
 
 ## Main Missions
 
-| # | Mission | 类型 | 奖励 | 做法 |
-|---|---|---|---|---|
-| 1 | **The Exterminator** | Assassination | $5000 | 去 **Italian Mafia HQ**，清掉 Alonzo 的手下，走到豪华房间结束 |
-| 2 | **Useless Run** | Investigation | $2000 | 去 **Bar**，进门往左，有个把脚搭在桌上的人。他逃跑时打他的腿 |
-| 3 | **Brutal Response** | Investigation | $1000 | 去 Clothing Shop 旁边的 **Slum Buildings**，一路上到顶楼，进左边房间，点左边窗户，用望远镜找 The Black Fox 的手下（左上方，从小巷走出来），完成 QTE |
-| 4 | **Rolling Info** | Race | $2000 | 去 Hotel 旁边的 **Slum Buildings**，点那个人开始赛车，完成 QTE |
-| 5 | **Fox Hunting** | Assassination | $5000 | 回 Clothing Shop 旁边的 Slum Buildings，杀掉 The Black Fox 的手下，上到顶楼，杀掉 3 人后进房间 |
-| 6 | **Modern Slavery** | Assassination | $5000 | 到 **Palermo, Italy** 后往下走，再往左，进车旁边的建筑，上到最高的房间，点阳台开始。狙杀看守 Cosima 的人：Cosima 房间旁一个、一楼一个 |
-| 7 | **Ticket For The Ride** | Assassination | $2000 | Palermo 往下走（有路牌），进 **Church**，走左边楼梯，点窗户。送货人下卡车时击杀 |
-| 8 | **Blood And Wine** | Assassination | $5000 | 清掉 Alonzo 据点的所有手下，到 Alonzo 房间拿 keycard，回到刚进据点时的第一个房间 |
+| #   | Mission                 | 类型            | 奖励    | 做法                                                                                                   |
+| --- | ----------------------- | ------------- | ----- | ---------------------------------------------------------------------------------------------------- |
+| 1   | **The Exterminator**    | Assassination | $5000 | 去 **Italian Mafia HQ**，清掉 Alonzo 的手下，走到豪华房间结束                                                        |
+| 2   | **Useless Run**         | Investigation | $2000 | 去 **Bar**，进门往左，有个把脚搭在桌上的人。他逃跑时打他的腿                                                                   |
+| 3   | **Brutal Response**     | Investigation | $1000 | 去 Clothing Shop 旁边的 **Slum Buildings**，一路上到顶楼，进左边房间，点左边窗户，用望远镜找 The Black Fox 的手下（左上方，从小巷走出来），完成 QTE |
+| 4   | **Rolling Info**        | Race          | $2000 | 去 Hotel 旁边的 **Slum Buildings**，点那个人开始赛车，完成 QTE                                                       |
+| 5   | **Fox Hunting**         | Assassination | $5000 | 回 Hotel 旁边的 Slum Buildings，杀掉 The Black Fox 的手下，上到顶楼，杀掉 3 人后进房间                                      |
+| 6   | **Modern Slavery**      | Assassination | $5000 | 到 **Palermo, Italy** 后往下走，再往左，进车旁边的建筑，上到最高的房间，点阳台开始。狙杀看守 Cosima 的人：Cosima 房间旁一个、一楼一个                 |
+| 7   | **Ticket For The Ride** | Assassination | $2000 | Palermo 往下走（有路牌），进 **Church**，走左边楼梯，点窗户。送货人下卡车时击杀                                                    |
+| 8   | **Blood And Wine**      | Assassination | $5000 | 清掉 Alonzo 据点的所有手下，到 Alonzo 房间拿 keycard，回到刚进据点时的第一个房间                                                 |
 
 Mission 2、3、4 的顺序可以自选。
 

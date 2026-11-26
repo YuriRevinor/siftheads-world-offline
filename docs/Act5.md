@@ -1,6 +1,7 @@
 # Act 5 - An Exotic Job
 
 地点：**Amazon, Brazil**（West Road、North Road、East Road、Safehouse、Village、Villa，以及火车）。
+**【离线版】** 原版从 Act 4 读档后，地图上的 Palermo 会显示已解锁，点了却去 Amazon。离线版已把 Act 5 地图上的 Palermo、St. Petersburg 固定为锁定。
 可用作弊码：`revive` `perso` `reload` `equip`。开局可选 AK-47 或 Revolver。
 
 ## 全收集清单

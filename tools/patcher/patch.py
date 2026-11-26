@@ -190,6 +190,23 @@ _root.shwLoad = function()
 '''
 
 
+MAP_FIX = {
+    "SHW_Act2_Gamefree": (   # Act 2 takes place in Chicago and Tokyo
+        ("DefineSprite_2798/frame_2/PlaceObject2_2797_5", "palermo", 1),
+        ("DefineSprite_2798/frame_2/PlaceObject2_2797_15", "shanghai", 1),
+        ("DefineSprite_2798/frame_2/PlaceObject2_2797_25", "stpetersburg", 1),
+    ),
+    "SHW_Act4_Gamesfree": (  # Act 4: St. Petersburg (a new game starts with it unlocked)
+        ("DefineSprite_3150/frame_2/PlaceObject2_3149_6", "palermo", 1),
+        ("DefineSprite_3150/frame_2/PlaceObject2_3149_26", "stpetersburg", 2),
+    ),
+    "SHW_Act5": (            # Act 5: Amazon has its own always-unlocked button
+        ("DefineSprite_3270/frame_2/PlaceObject2_3269_6", "palermo", 1),
+        ("DefineSprite_3270/frame_2/PlaceObject2_3269_26", "stpetersburg", 1),
+    ),
+}
+
+
 def rd(p):
     with open(p, encoding="utf-8") as f:
         return f.read()
@@ -284,7 +301,18 @@ def patch_act(ff, act, act_no, work, out_dir):
                 sys.exit(f"[{act}] unexpected script in {p}")
             edits[p] = "onClipEvent(load){\n}\n" if new is None else t.replace("bonus_unlocked_5", new)
 
-    imp = os.path.join(work, "import", act)
+    # 7. world map: in Acts 2/4/5 two city buttons share one level range, and the city flags
+    #    carried over from the previous act unlock the wrong one (e.g. "Palermo" leads to Tokyo
+    #    in Act 2). Pin those buttons: 1 = locked, 2 = unlocked.
+    for obj, flag, state in MAP_FIX.get(act, ()):
+        p = f"{obj}/CLIPACTIONRECORD onClipEvent(enterFrame)"
+        t = rd(os.path.join(src, p + ".as"))
+        old = f"gotoAndStop(_root.{flag}_unlocked);"
+        if old not in t:
+            sys.exit(f"[{act}] unexpected script in {p}")
+        edits[p] = t.replace(old, f"gotoAndStop({state});")
+
+    imp =os.path.join(work, "import", act)
     for p, t in edits.items():
         fn = os.path.join(imp, "scripts", *p.split("/")) + ".as"
         os.makedirs(os.path.dirname(fn), exist_ok=True)
