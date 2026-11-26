@@ -1,0 +1,25 @@
+Sift Heads World 离线版
+=======================
+双击 Play_Act1.bat ~ Play_Act6.bat 开始游戏（用 player\ruffle.exe 运行 offline\ 里的离线版）。
+原版 swf 未改动。
+
+存档：
+- 开头 "CREATE PROFILE" 注册，用户名随意，邮箱可留空（已去掉邮箱校验），验证码照填。
+- 之后用同一个用户名登录即可读档，密码不校验。
+- 游戏内 SAVE 按钮正常可用。
+- 同一个用户名在每一部各有一个存档槽：
+  · 进入某一部时，优先读这一部自己的存档；没有就继承上一部的存档（如 Act1 存完开 Act2）。
+  · 在哪一部按 SAVE 就只写那一部的槽，回去重玩前面的章节不会覆盖后面章节的进度。
+  · 只有后面章节存档时打开 Act1，会从头开始并保留金钱。
+  · 注意：重玩 Act1 并存档后，如果 Act2 还没有自己的存档，Act2 会继承重玩后的 Act1。
+- 存档文件：player\data\saves\localhost\siftheads_world_offline.sol（备份它即可）。
+
+存档管理（SaveManager.exe）：
+- 双击运行，会列出每个用户名在各部的存档槽，勾选后点“删除选中”即可删除。
+- 用途：某一部已经有自己的存档时，LOAD GAME 不会再继承上一部。把这一部的存档槽删掉，就会重新从上一部继承。
+- 删除前会自动备份为 siftheads_world_offline.sol.<日期-时间>.bak，放在存档同目录。
+- 某个用户名的存档槽全删光时，这个用户名也会一起删除，之后可以用它重新 CREATE PROFILE。
+- 删除前请先关闭游戏，游戏运行时工具会拒绝删除。
+- 源码和构建脚本在 tools\SaveManager\（C++/CLI + WinForms，运行在系统自带的 .NET Framework 4.x 上）。
+
+外部网页链接已禁用（网站早已关闭）。
