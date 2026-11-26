@@ -2,6 +2,7 @@
 
 地点：**Tokyo**（Kiro's Place、Daiki Tower、Emi Massage、Business Tower、Gun Shop、Clothing Shop），**Chicago**（Hotel、Safehouse 等）。
 **【离线版】** 原版从 Act 1 读档后，地图上的 Palermo 会显示已解锁，点了却去 Tokyo。离线版已把 Act 2 地图上的 Palermo、Shanghai、St. Petersburg 固定为锁定。
+**【离线版】** 原版二周目完成主线 4 后，主线 5 Crossing The Line 不会解锁（解锁它的 Yuuma、Black Fox 两段视频被当成已播放）。离线版已修复：做完 Tokyo 的主线 2–4 后约 1 分钟，两段视频依次播放，主线 5 解锁。已经卡住的存档读档后同样会恢复。
 
 ## 全收集清单
 - [ ] Main Missions ×10

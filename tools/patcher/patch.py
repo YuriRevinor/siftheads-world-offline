@@ -312,7 +312,22 @@ def patch_act(ff, act, act_no, work, out_dir):
             sys.exit(f"[{act}] unexpected script in {p}")
         edits[p] = t.replace(old, f"gotoAndStop({state});")
 
-    imp =os.path.join(work, "import", act)
+    # 8. Act 2 second playthrough: ob_20_9 / ob_20_10 mark the Yuuma and Black Fox videos as
+    #    played; the Fox video unlocks Crossing The Line (ob_11). The end-of-act restart does
+    #    not clear them, so mission 5 never unlocks again. Clear them on restart, and on load
+    #    while ob_11 is still locked (repairs saves that are already stuck).
+    if act == "SHW_Act2_Gamefree":
+        reset = ["_root.ob_20_9 = 1;", "_root.ob_20_10 = 1;"]
+        p = "DefineSprite_3208/frame_22/DoAction"
+        edits[p] = sub1(rd(os.path.join(src, p + ".as")), r"\n([ \t]*)_root\.ob_11 = 1;\n",
+                        lambda m: m.group(0) + "".join(m.group(1) + l + "\n" for l in reset),
+                        act + " restart")
+        p = "frame_43/DoAction"
+        edits[p] = sub1(rd(os.path.join(src, p + ".as")), r"\nstop\(\);\nonEnterFrame = function\(\)",
+                        lambda m: "\nif(_root.ob_11 == 1)\n{\n" + "".join("   " + l + "\n" for l in reset)
+                        + "}" + m.group(0), act + " load")
+
+    imp = os.path.join(work, "import", act)
     for p, t in edits.items():
         fn = os.path.join(imp, "scripts", *p.split("/")) + ".as"
         os.makedirs(os.path.dirname(fn), exist_ok=True)
