@@ -20,6 +20,7 @@ Sift Heads World 离线版
 - 删除前会自动备份为 siftheads_world_offline.sol.<日期-时间>.bak，放在存档同目录。
 - 某个用户名的存档槽全删光时，这个用户名也会一起删除，之后可以用它重新 CREATE PROFILE。
 - 删除前请先关闭游戏，游戏运行时工具会拒绝删除。
-- 源码和构建脚本在 tools\SaveManager\（C++/CLI + WinForms，运行在系统自带的 .NET Framework 4.x 上）。
+- 运行在系统自带的 .NET Framework 4.x 上，无需安装。
+- 源码、构建脚本和离线补丁脚本见项目仓库的 tools\ 目录。
 
 外部网页链接已禁用（网站早已关闭）。
