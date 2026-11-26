@@ -20,6 +20,7 @@
 | `Play_Act*.bat`、`play.bat` | 启动脚本 |
 | `SaveManager.exe` | 存档管理器，可查看和删除各部的存档槽 |
 | `tools\SaveManager\` | 存档管理器源码（C++/CLI + WinForms）和构建脚本 |
+| `tools\patcher\` | 离线补丁脚本，用原版 SWF 生成 `offline\`（见其中的 README） |
 | `docs\` | Act 1–6 全收集攻略 |
 | `说明.txt` | 使用说明 |
 
