@@ -126,7 +126,7 @@ Basement 在 Vinnie 的 Safehouse 里，**通关一次后解锁**。Act 1 可以
 | Shurikens 6B | 无限 | Thrown | $4,000 | 1–6 |
 | C4 Explosives | — | Explosive | $500 | 只能在 Act 5 买，任务 Fireworks 用 |
 
-Act 3 起，可以在 **Darwen's House** 升级武器的 Precision 和 Power。Act 3 的支线 Full Specs 要求把任意一把枪升满。
+Act 3 起，可以在 **Darwen's House** 升级武器的 Precision 和 Power，每次 $250。Act 3 的支线 Full Specs 要求把 **Walther P99** 升满（不是任意一把枪）。原版升级不存档，读档就恢复初始值；**【离线版】** 升级会存档，并带到后面几部。
 
 ---
 

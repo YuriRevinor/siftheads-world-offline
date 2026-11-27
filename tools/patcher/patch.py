@@ -103,6 +103,10 @@ _root.shwSave = function()
    while(i < names.length)
    {
       var v = _root[names[i]];
+      if((names[i].substr(0,9) == "wp_power_" || names[i].substr(0,13) == "wp_precision_") && _root["wp_power_" + names[i].substr(names[i].lastIndexOf("_") + 1)] == 0)
+      {
+         v = undefined;
+      }
       if(v != undefined)
       {
          d[names[i]] = v;
@@ -251,6 +255,12 @@ def patch_act(ff, act, act_no, work, out_dir):
     f27 = rd(os.path.join(src, "frame_27", "DoAction.as"))
     vars_ = re.findall(r"_root\.([a-z0-9_]+) = Number\(", f27)
     vars_ += [f"bonus_unlocked_{i}" for i in range(2, 13)]
+    # Acts 3-6: Darwen's weapon upgrades (power/precision per weapon) were never saved.
+    # Weapons with power 0 don't exist in that act and are skipped by shwSave, so a
+    # later act keeps its own defaults for weapons it adds.
+    if act_no >= 3:
+        f20 = rd(os.path.join(src, "frame_20", "DoAction.as"))
+        vars_ += re.findall(r"_root\.(wp_p(?:ower|recision)_\d+) = ", f20)
     vars_ = list(dict.fromkeys(vars_))
 
     # 1. frame 1: drop the domain lock, inject the save library

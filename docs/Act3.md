@@ -2,6 +2,7 @@
 
 地点：**Chicago**（Vinnie's Safehouse、Darwen's House、City Hall、Crime Hideout、Business Tower、Gigi restaurant、Bar、Slum Buildings），**Palermo, Italy**（Hotel、The Port、Apart Block、Beach Club、Clothing Shop）。
 可用作弊码：`revive` `perso` `reload` `equip`。
+**【离线版】** 原版在 Darwen's House 升级的武器属性不存档，读档后会恢复初始值。离线版会保存升级，并带到后面几部。
 
 ## 全收集清单
 - [ ] Main Missions ×11
@@ -36,7 +37,7 @@
 |---|---|
 | **Shooting range** | Vinnie's Safehouse 的 **Pool Yard**：Kiro 哑铃旁边那个房间（有便条的那个），再进中间有灰色横杆的房间，打出 12/12 |
 | **Heavy door** | **Bar** 厕所进密道，往左，有挂锁的房间。把挂锁打烂，进去点箱子。建议在主线 Hidden ways 时顺便做 |
-| **Full specs** | 在 **Darwen's House** 把任意一把枪升满（Precision + Power） |
+| **Full specs** | 在 **Darwen's House** 把 **Walther P99** 升满：Power 升 8 次（20 → 100），Precision 升 3 次（7 → 1），每次 $250，共 $2750。**【代码】** 游戏只检查 Walther P99，别的枪升满不算。Walther P99 在 Gun Shop 卖 $1000，要带在身上才能升级 |
 | **Always a pleasure** | Palermo **Beach Club**，到海滩上点海面，有个人被石头困住，射断树枝 |
 
 ### GT part（6 个零件）
